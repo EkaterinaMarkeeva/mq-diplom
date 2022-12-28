@@ -866,7 +866,6 @@ body {
 
     .trend {
         width: 25%;
-        margin-right: 4px;
         margin-bottom: 0;
     }
 }
@@ -995,7 +994,7 @@ body {
     .products-title {
         font-size: 20px;
     }
-    
+
     .product-cards {
         flex-wrap: nowrap;
         gap: 65px;
