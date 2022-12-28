@@ -840,15 +840,11 @@ body {
 
     .product-cards {
         flex-wrap: wrap;
+        gap: 22px;
     }
 
     .product {
         width: 48.4%;
-        margin-right: 22px;
-    }
-
-    .product:nth-of-type(2) {
-        margin-right: 0;
     }
 
     .product-info {
@@ -942,20 +938,16 @@ body {
     /* Trends */
     .trends-cards {
         flex-wrap: nowrap;
+        gap: 4px;
     }
 
     .trend {
         width: 25%;
-        margin-right: 4px;
         margin-bottom: 0;
     }
 
     .trends-title {
         font-size: 20px;
-    }
-
-    .trend:last-of-type {
-        margin-right: 0;
     }
 
     .tags {
@@ -1003,17 +995,10 @@ body {
     .products-title {
         font-size: 20px;
     }
-
-    .product:nth-of-type(n) {
-        margin-right: 65px;
-    }
-
-    .product:last-of-type {
-        margin-right: 0;
-    }
-
+    
     .product-cards {
         flex-wrap: nowrap;
+        gap: 65px;
     }
 
     .product-title {
