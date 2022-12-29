@@ -861,6 +861,7 @@ body {
     .trends-cards {
         display: flex;
         flex-wrap: nowrap;
+        gap: 4px;
     }
 
     .trend {
@@ -889,14 +890,6 @@ body {
         margin-bottom: 58px;
     }
 
-    .header-top {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        
-        margin-bottom: 100px;                    
-    }
-    
     .logo {
         width: 180px;
     }
@@ -912,11 +905,11 @@ body {
     
     .menu-list {
         display: flex;
+        gap: 35px
     }
     
     .menu-link {
         display: inherit;
-        margin-right: 35px;
     }
     
     .menu-link-last {
