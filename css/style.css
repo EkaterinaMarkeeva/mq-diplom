@@ -35,8 +35,7 @@ body {
 }
 
 .box {
-    max-width: 330px;
-    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Header */
@@ -68,6 +67,7 @@ body {
 
 .header-top {
     padding-top: 30px;
+    text-align: center;
 }
 
 .logo {
@@ -241,6 +241,7 @@ body {
 }
 
 .border {
+    width: 100%;
     align-self: flex-end;
     padding: 30px 20px;
     border: solid 3px rgba(181, 159, 91, 0.6);
@@ -250,7 +251,6 @@ body {
 
 .main-news {
     margin-bottom: 44px;
-    /* width: 778px; */
 }
 
 .news {
@@ -536,6 +536,7 @@ body {
 
 .btn-shop {
     width: 50%;
+    padding: 15px 30px;
 }
 
 
@@ -730,13 +731,13 @@ body {
 }
 
 /* TABLET */
-@media (min-width: 768px) {
-    body {
+@media (min-width: 641px) {
+    /* body {
         min-width: 768px;
-    }
+    } */
     
     .box {
-        max-width: 697px;
+        padding: 0 35px;
     }
 
     /* Header */
@@ -799,7 +800,8 @@ body {
 
     /* Main */
     .main-news {
-        width: 390px;
+        flex-grow: 1;
+        margin-right: 35px;
     }
     
     .news:first-of-type {
@@ -814,9 +816,6 @@ body {
     .news-image {
         margin-right: 30px;
     
-        min-width: 381px;
-        min-height: 294px;
-        max-height: 294px;
     }
 
     .news-text {
@@ -872,16 +871,17 @@ body {
 
 /* DESKTOP */
 @media (min-width: 1200px) {
-    body {
-        min-width: 1660px;
-    }
-    
     .box {
         max-width: 1200px;
+        margin: 0 auto;
         padding: 0 15px;
     }
 
     /* Header */
+    body {
+
+    }
+
     .header {
         background-image: url("../img/banner-bg.jpg");
         
@@ -964,6 +964,7 @@ body {
     .main-news {
         margin-bottom: 0;
         width: 778px;
+        flex-grow: 0;
     }
 
     .news {
@@ -975,6 +976,9 @@ body {
     
     .news-image {
         margin-bottom: 0;
+        min-width: 381px;
+        min-height: 294px;
+        max-height: 294px;
     }
 
     .news-header {
