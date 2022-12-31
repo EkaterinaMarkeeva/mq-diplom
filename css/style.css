@@ -839,11 +839,11 @@ body {
     }
 
     .product {
-        width: 48.2%;
+        width: 48%;
     }
 
     .product-info {
-        min-height: 266px;
+        min-height: 279px;
     }
 
     /* Popup */
