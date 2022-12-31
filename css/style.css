@@ -42,7 +42,7 @@ body {
 .header {
     background-image: url("../img/banner-mobile.jpg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
     
     margin-bottom: 40px;
@@ -216,15 +216,13 @@ body {
 .tags {
     margin-bottom: 15px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
 
     font-size: 14px;
     font-weight: bold;
     color: #b59f5b;
     text-transform: uppercase;
-}
-
-.tag {
-    margin-right: 18px;
 }
 
 .tag:hover {
@@ -239,6 +237,10 @@ body {
 
 .title-post:hover {
     color: #b59f5b;
+}
+
+.break {
+    word-break: break-word;
 }
 
 .border {
@@ -735,10 +737,6 @@ body {
 
 /* TABLET */
 @media (min-width: 641px) {
-    /* body {
-        min-width: 768px;
-    } */
-    
     .box {
         padding: 0 35px;
     }
@@ -841,7 +839,7 @@ body {
     }
 
     .product {
-        width: 48.4%;
+        width: 48.2%;
     }
 
     .product-info {
@@ -1002,5 +1000,3 @@ body {
         font-size: 20px;
     }
 }
-
-
